@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import './App.css'; // Correct path
-import SolarSystemButton from './SolarSystemButton'; // Correct path
-import SolarSystemDetails from './SolarSystemDetails'; // Correct path
+import './App.css';
+import SolarSystemButton from './components/SolarSystemButton';
+import SolarSystemDetails from './components/SolarSystemDetails';
 
 function App() {
   const [solarSystems, setSolarSystems] = useState([]);
   const [selectedSystem, setSelectedSystem] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:5000/solar%20systems')
+    fetch('http://localhost:3000/solarsystems')
       .then(response => response.json())
       .then(data => setSolarSystems(data));
   }, []);
