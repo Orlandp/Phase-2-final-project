@@ -40,6 +40,9 @@
   padding: 5px;
   margin-bottom: 5px;
 }
+.solar-details h3{
+  background-color: aqua;
+}
 .login-container {
   max-width: 300px;
   margin: 0 auto;
@@ -84,8 +87,8 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: linear-gradient(to top right, #009688, #004d40);
-  color: #ffffff;
+  background: linear-gradient(to top right, #5d7914, #004d40);
+  color: #fbc100;
   min-height: 100vh;
   display: flex;
   align-items: center;
