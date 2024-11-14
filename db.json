@@ -1,30 +1,43 @@
 {
-    "solarsystems":[
-        {
-            "id": 1,
-            "type": "On Residential areas",
-            "description": "This Solar energy systems are used in a home used by people.",
-            "price": 30000,
-            "features": ["A battery to store the energy KWH, A remote energy consumption, A clean sustainable Energy system"]
-        },
-
-
+  "users": [
     {
-        "id": 2,
-        "type": "Commercial",
-        "description": "The Solar system is used in High voltage places especially in factories businesses and large buildings",
-        "price" : 70000,
-        "features": ["More Solar Panels installed,A remote energy consumption, It has tax incetives, larger batteries and works with big machinery."]
-        
+      "id": 1,
+      "username": "user",
+      "password": "password"
     },
-
     {
-        "id": 3,
-        "type": "Off-Grid",
-        "description": "The solar energy system is used when on of grid ",
-        "price": 40000,
-        "features":["Has a battery storage, Has no tax incetives, It converts much faster within the batteries and has a sustainable energy"]
+      "id": "8db0",
+      "username": "JAMES OLANDO",
+      "password": "3344"
     }
-    ]
+  ],
+  "solarsystems": [
+    {
+      "id": 1,
+      "type": "On Residential areas",
+      "description": "This Solar energy systems are used in a home used by people.",
+      "price": 30000,
+      "features": [
+        "A battery to store the energy KWH, A remote energy consumption, A clean sustainable Energy system"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Commercial",
+      "description": "The Solar system is used in High voltage places especially in factories businesses and large buildings",
+      "price": 70000,
+      "features": [
+        "More Solar Panels installed, A remote energy consumption, It has tax incentives, larger batteries and works with big machinery."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Off-Grid",
+      "description": "The solar energy system is used when off-grid.",
+      "price": 40000,
+      "features": [
+        "Has a battery storage, no tax incentives, converts much faster within the batteries and has a sustainable energy."
+      ]
+    }
+  ]
 }
-
