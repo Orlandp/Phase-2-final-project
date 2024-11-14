@@ -80,4 +80,14 @@
 .login-container button:hover {
   background-color: #0056b3;
 }
-
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to top right, #009688, #004d40);
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
