@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "user",
       "password": "password"
     },
@@ -9,11 +9,26 @@
       "id": "8db0",
       "username": "JAMES OLANDO",
       "password": "3344"
+    },
+    {
+      "id": "470f",
+      "username": "Olando",
+      "password": "2244"
+    },
+    {
+      "id": "af62",
+      "username": "OLANDO",
+      "password": "1122"
+    },
+    {
+      "id": "bbd7",
+      "username": "ORLANDO",
+      "password": "4433"
     }
   ],
   "solarsystems": [
     {
-      "id": 1,
+      "id": "1",
       "type": "On Residential areas",
       "description": "This Solar energy systems are used in a home used by people.",
       "price": 30000,
@@ -22,7 +37,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "type": "Commercial",
       "description": "The Solar system is used in High voltage places especially in factories businesses and large buildings",
       "price": 70000,
@@ -31,7 +46,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "type": "Off-Grid",
       "description": "The solar energy system is used when off-grid.",
       "price": 40000,
