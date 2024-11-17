@@ -33,6 +33,7 @@ npm install
     bash
     Copy code
     npx json-server --watch db.json --port 3001  
+    http://localhost:3001/solarsystems
 4.   **Start React App:**
       bash
      Copy code
